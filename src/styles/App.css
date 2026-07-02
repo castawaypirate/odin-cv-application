@@ -1,0 +1,10 @@
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+#educational {
+  margin-top: 1rem;
+}

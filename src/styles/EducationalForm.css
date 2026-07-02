@@ -1,0 +1,22 @@
+#educationalForm {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.formControl {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 200px;
+}
+
+button {
+  width: 75px;
+}
+
+button:hover {
+  cursor: pointer;
+}

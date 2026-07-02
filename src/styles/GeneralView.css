@@ -1,0 +1,13 @@
+#generalView {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+button {
+  width: 75px;
+}
+
+button:hover {
+  cursor: pointer;
+}
