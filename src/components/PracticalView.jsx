@@ -15,7 +15,7 @@ export function PracticalView({ data }) {
   };
 
   return (
-    <div id="practicalView">
+    <div className="practicalView">
       <h3>{data.company}</h3>
       <h3>{data.positionTitle}</h3>
       <h3>{data.responsibilities}</h3>

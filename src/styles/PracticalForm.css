@@ -1,4 +1,4 @@
-#practicalForm {
+.practicalForm {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -7,4 +7,9 @@
 .formControl {
   display: flex;
   flex-direction: column;
+}
+
+.remove-btn {
+  width: 150px;
+  margin-top: 0.5rem;
 }

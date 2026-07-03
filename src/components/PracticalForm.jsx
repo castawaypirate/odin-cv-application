@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "../styles/PracticalForm.css";
 
-export function PracticalForm({ formRef, data, onSubmit }) {
+export function PracticalForm({ formRef, data, onSubmit, onRemove }) {
   const [formData, setFormData] = useState({ ...data });
 
   function handleChange(e) {
@@ -14,7 +14,7 @@ export function PracticalForm({ formRef, data, onSubmit }) {
       <form
         ref={formRef}
         onSubmit={(e) => onSubmit(e, formData)}
-        id="practicalForm"
+        className="practicalForm"
       >
         <div className="formControl">
           <label htmlFor="company">Company</label>
@@ -62,6 +62,9 @@ export function PracticalForm({ formRef, data, onSubmit }) {
           />
         </div>
       </form>
+      <button onClick={onRemove} className="remove-btn" type="button">
+        Remove Experience
+      </button>
     </>
   );
 }

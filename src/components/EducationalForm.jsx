@@ -11,6 +11,7 @@ export function EducationalForm({ data, onSubmit }) {
 
   return (
     <>
+      {/* pass form data back to the parent */}
       <form onSubmit={(e) => onSubmit(e, formData)} id="educationalForm">
         <div className="formControl">
           <label htmlFor="university">University</label>
