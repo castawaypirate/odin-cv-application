@@ -8,3 +8,36 @@
 #educational {
   margin-top: 1rem;
 }
+
+#practical {
+  margin-top: 1rem;
+}
+
+form {
+  margin-top: 1rem;
+}
+
+input {
+  width: 200px;
+}
+
+.submit-btn,
+.edit-btn {
+  width: 75px;
+}
+
+.submit-btn:hover,
+.edit-btn:hover {
+  cursor: pointer;
+}
+
+.exp-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.add-exp {
+  width: 125px;
+}

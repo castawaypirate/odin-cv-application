@@ -5,7 +5,7 @@ export function EducationalView({ data, onEdit }) {
       <h3>{data.fieldOfStudy}</h3>
       <h3>Enrollment Year: {data.from && `${data.from}`}</h3>
       <h3>Graduation Year: {data.to && `${data.to}`}</h3>
-      <button onClick={onEdit} type="button">
+      <button className="edit-btn" onClick={onEdit} type="button">
         Edit
       </button>
     </div>

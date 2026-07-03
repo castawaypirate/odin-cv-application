@@ -6,7 +6,7 @@ export function GeneralView({ data, onEdit }) {
       </h3>
       <h3>{data.email}</h3>
       <h3>{data.phone}</h3>
-      <button onClick={onEdit} type="button">
+      <button className="edit-btn" onClick={onEdit} type="button">
         Edit
       </button>
     </div>

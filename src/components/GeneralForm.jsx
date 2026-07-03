@@ -48,7 +48,9 @@ export function GeneralForm({ data, onSubmit }) {
             value={formData.phone}
           />
         </div>
-        <button type="submit">Submit</button>
+        <button className="submit-btn" type="submit">
+          Submit
+        </button>
       </form>
     </>
   );
