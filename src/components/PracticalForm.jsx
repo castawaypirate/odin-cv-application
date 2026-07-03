@@ -11,6 +11,7 @@ export function PracticalForm({ formRef, data, onSubmit, onRemove }) {
 
   return (
     <>
+      {/* add ref to form so then we can call requestSubmit() on each form */}
       <form
         ref={formRef}
         onSubmit={(e) => onSubmit(e, formData)}
